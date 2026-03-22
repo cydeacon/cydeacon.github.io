@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端开发实习生 | 个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            max-width: 700px;
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .tag {
+            background: #667eea;
+            color: white;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 25px 0;
+        }
+        .skill {
+            background: #f0f0f0;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .links {
+            margin: 30px 0 20px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 0 12px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .bio {
+            color: #666;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        hr {
+            margin: 30px 0 20px;
+            border: none;
+            border-top: 1px solid #eee;
+        }
+        .footer {
+            font-size: 0.8rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1> 你好，我是陈源</h1>
+        <div class="tag">前端开发实习生</div>
+        
+        <div class="bio">
+            热爱前端开发，具备扎实的 HTML/CSS/JavaScript 基础，<br>
+            熟悉 Vue.js 框架，正在积极寻找前端实习机会。<br>
+            喜欢将设计转化为优雅、响应式的网页，注重用户体验与代码规范。
+        </div>
+        
+        <div class="skills">
+            <span class="skill">HTML5/CSS3</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Vue.js</span>
+            <span class="skill">Git/GitHub</span>
+            <span class="skill">响应式设计</span>
+        </div>
+        
+        <div class="links">
+            <a href="mailto:15243680830@163.com" target="_blank"> 邮箱</a>
+            <a href="https://github.com/cydeacon" target="_blank"> GitHub</a>
+        </div>
+        
+        <hr>
+        
+        <div class="footer">
+            🔨 正在积极寻找前端实习岗位 · 欢迎联系
+        </div>
+    </div>
+</body>
+</html>
